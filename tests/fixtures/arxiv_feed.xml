@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>ArXiv Query</title>
+  <id>http://arxiv.org/api/query</id>
+  <updated>2026-07-01T00:00:00Z</updated>
+  <entry>
+    <id>http://arxiv.org/abs/2606.12345v1</id>
+    <updated>2026-06-30T12:00:00Z</updated>
+    <published>2026-06-29T12:00:00Z</published>
+    <title>Waveguide QED with subwavelength arrays</title>
+    <summary>We study photon scattering and collective decay in atomic arrays.</summary>
+    <author><name>Alice Example</name></author>
+    <author><name>Bob Researcher</name></author>
+    <arxiv:primary_category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/2606.12345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2606.12345v1" rel="related" type="application/pdf"/>
+  </entry>
+</feed>
+

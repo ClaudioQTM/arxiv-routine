@@ -1,0 +1,29 @@
+categories:
+- quant-ph
+- physics.optics
+- cond-mat.quant-gas
+- math-ph
+high_priority_keywords:
+- waveguide QED
+- few-photon scattering
+- multi-photon scattering
+- photon scattering
+- atomic arrays
+- subwavelength arrays
+
+method_keywords:
+- Yudson
+- Bethe ansatz
+- Lippmann-Schwinger
+- resolvent
+- cumulant expansion
+
+broader_discovery_keywords:
+- topological quantum optics
+- quantum nonlinear optics
+- chiral quantum optics
+- collective decay
+- dark states
+- spin waves
+
+author_watchlist: [Susanne Yelin, Helmut Ritsch, Michael Gullans,Darrick E. Chang]
