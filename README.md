@@ -15,7 +15,7 @@ uv sync
 After that, use the project virtual environment as your notebook kernel:
 
 ```text
-/Users/wangyangming/research_project/arxiv-radar/.venv/bin/python
+/Users/User/research_project/arxiv-radar/.venv/bin/python
 ```
 
 The recommended daily workflow is:
@@ -145,14 +145,14 @@ crontab -e
 Run every Monday at 9 AM:
 
 ```cron
-0 9 * * 1 cd /Users/wangyangming/research_project/arxiv-radar && /opt/homebrew/bin/uv run arxiv-radar run --days 7 --output-dir reports
+0 9 * * 1 cd /Users/User/research_project/arxiv-radar && /opt/homebrew/bin/uv run arxiv-radar run --days 7 --output-dir reports
 ```
 
 Adjust the `uv` path if `which uv` returns a different location.
 
 ### launchd
 
-Create `~/Library/LaunchAgents/com.wangyangming.arxiv-radar.plist`:
+Create `~/Library/LaunchAgents/com.User.arxiv-radar.plist`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -161,7 +161,7 @@ Create `~/Library/LaunchAgents/com.wangyangming.arxiv-radar.plist`:
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.wangyangming.arxiv-radar</string>
+  <string>com.User.arxiv-radar</string>
   <key>ProgramArguments</key>
   <array>
     <string>/opt/homebrew/bin/uv</string>
@@ -172,7 +172,7 @@ Create `~/Library/LaunchAgents/com.wangyangming.arxiv-radar.plist`:
     <string>7</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/wangyangming/research_project/arxiv-radar</string>
+  <string>/Users/User/research_project/arxiv-radar</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Weekday</key>
@@ -193,7 +193,7 @@ Create `~/Library/LaunchAgents/com.wangyangming.arxiv-radar.plist`:
 Load it:
 
 ```bash
-launchctl load ~/Library/LaunchAgents/com.wangyangming.arxiv-radar.plist
+launchctl load ~/Library/LaunchAgents/com.User.arxiv-radar.plist
 ```
 
 ## Future extensions
